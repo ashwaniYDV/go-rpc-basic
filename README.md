@@ -1,6 +1,6 @@
 # go-rpc-basic
 
-### What Will I Learn?
+### What will we learn?
 * You will learn about RPC (Remote Procedure Calls)
 * You will learn how to build an RPC server
 * You will learn how to build an RPC client
