@@ -1,1 +1,1 @@
-module rpc-tutorial
+module go-rpc-basic
