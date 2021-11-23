@@ -20,7 +20,11 @@ client.Call("API.DeleteItem", c, &reply)
 client.Call("API.GetDB", "", &db)
   ```
 
-In Go, the net/rpc library requires that the functions in the RPC interface follow a specific format. Each function must be a Method on an Exported Datatype. In the case of this application, that Datatype is just a simple int type Aliased to the name API. Each of these methods must also be exported globally. The Methods must contain exactly two exported type arguments and the second argument must be a pointer. And the Methods must return an error type.
+In Go, the net/rpc library requires that the functions in the RPC interface follow a specific format. 
+* Each function must be a Method on an Exported Datatype. In the case of this application, that Datatype is just a simple int type Aliased to the name API. 
+* Each of these methods must also be exported globally. 
+* The Methods must contain exactly two exported type arguments and the second argument must be a pointer. 
+* The Methods must return an error type.
 
 ```go
 func (a *API) GetByName(title string, reply *Item) error {
