@@ -1,11 +1,10 @@
 # go-rpc-basic
 
 ### What will we learn?
-* You will learn about RPC (Remote Procedure Calls)
-* You will learn how to build an RPC server
-* You will learn how to build an RPC client
-* You will learn how to create a CRUD app with Go
-* You will learn how to use the net/rpc and net/http libraries in Go
+* RPC (Remote Procedure Calls)
+* How to build an RPC server and client in go
+* How to create a CRUD app with Go
+* How to use the net/rpc and net/http libraries in Go
 
 ### Description
 In this Go tutorial, we work at building a basic RPC Server and Client. This includes building the basic app without using the RPC library and then building both the Client and Server applications to showcase some of the basic ideas of RPC with Go. The RPC format is talked about at length and shown off using a CRUD application. This tutorial is in service of being able to talk about Microservices, gRPC and Protobuf.
