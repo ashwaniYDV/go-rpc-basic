@@ -1,4 +1,4 @@
 # go-rpc-basic
 
 ### Courtesy:
-https://youtu.be/1MPWPq2N768
+https://steemit.com/utopian-io/@tensor/building-a-basic-rpc-server-and-client-with-go
